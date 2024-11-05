@@ -27,6 +27,7 @@ public class SubRedditProcessingService
         _httpClientFactory = httpClientFactory;
     }
 
+    
     public async Task<List<SubmissionDetailsInternal>> StartAsync(string subRedditName, CancellationToken cancellationToken)
     {
         _logger.LogInformation($"Starting SubRedditProcessingService for subreddit {subRedditName}");
