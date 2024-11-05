@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Reddit.NET.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "-e username-password"
+    }
+  }
+}
